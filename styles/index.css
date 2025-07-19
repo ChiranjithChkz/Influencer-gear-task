@@ -98,7 +98,7 @@ nav li a{
     grid-template-columns: repeat(3, 1fr);
     width:300px;
     grid-gap: 20px;
-    padding: 200px;
+    padding: 275px;
      
 }
 
