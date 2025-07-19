@@ -78,3 +78,101 @@ nav li a{
 .camera{
     text-align: center;
 }
+.icons{
+    border: 1px solid #f1efef ;
+    display: flex;
+    margin:100px 0  ;
+    text-align: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* Card-decoration style */
+
+.collection-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:300px;
+    grid-gap: 20px;
+    padding-left: 200px;
+     
+}
+
+.collection-card{
+     
+    box-shadow: -2px 5px 26px 7px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    width: 300px;
+    padding: 5px;
+}
+.collection-title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#collection-img{
+    width: 300px;
+    height: 256px;
+}
+.collection-name{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 0px 0px;
+}
+.collection-price{
+    font-size: 1.5rem;
+    font-weight: 400;
+     margin: 0px 0px;
+}
+.ratting{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   height: 15px;
+}
+#ratting-icon{
+    
+}
+.collection-description{
+    font-size: .875rem;
+    font-weight: bold;
+    color: rgba(120, 120, 133, 1);
+    margin: 0px 0px;
+}
+.see-more-icon a{
+  text-decoration: none;
+  color: #E02C6D;
+  margin-right: 0;
+  margin-left: 78%;
+ 
+}
+.see-more-icon{
+     margin-top: 50px;
+}
+
+/* Feature section styles */
+
+.product-feature{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 150px 100px 160px;
+}
+.feature-title{
+    font-size: 2.375rem;
+    font-weight: bold;
+}
+.feature-description{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6C6C6C;
+}
+.btn-secondary{
+    height: 44px;
+    width: 155px;
+    background-color: #E02C6D;
+    color: #f1efef;
+    padding: 10px 24px 10px 24px ;
+    border: none;
+    border-radius: 3px;
+}
+
